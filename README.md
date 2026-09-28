@@ -1,31 +1,25 @@
-# Global-AirBnb-Performance-analysis
-1. Project Title
+# Global Airbnb Performance Analysis Dashboard
+
+## 1. Project Title
 
 Global Airbnb Performance Analysis Dashboard
 
+## 2. Short Description / Purpose
 
-2. Short Description / Purpose
+A Power BI dashboard project designed to analyze Airbnb's global performance across listings, cities, hosts, property types, ratings, reviews, pricing, and market share.
 
-A Power BI dashboard project designed to analyze Airbnb's global
-performance across listings, cities, hosts, property types, ratings,
-reviews, pricing, and market share.
+The dashboard provides an interactive view of Airbnb performance through three analytical pages: Overview, Ratings, and Reviews.
 
-The dashboard provides an interactive view of Airbnb performance
-through three analytical pages: Overview, Ratings, and Reviews.
-
-
-3. Tech Stack
+## 3. Tech Stack
 
 - Power BI
 - DAX
 - Power Query
 - CSV
 
+## 4. Data Source
 
-4. Data Source
-
-The project uses Airbnb listing and review datasets containing
-information related to:
+The project uses Airbnb listing and review datasets containing information related to:
 
 - Listings
 - Cities
@@ -36,15 +30,13 @@ information related to:
 - Reviews
 - Host verification
 
-The original datasets are not included in the repository due to
-file-size limitations.
+The original datasets are not included in the repository due to file-size limitations.
 
+## 5. Features & Highlights
 
-5. Features & Highlights
+### Dashboard Pages
 
-Dashboard Pages:
-
-Overview
+#### Overview
 
 - Total listings
 - Total cities
@@ -56,8 +48,7 @@ Overview
 - Market share by city
 - Average price by property type
 
-
-Ratings
+#### Ratings
 
 - Market share by city
 - Average rating by city
@@ -65,8 +56,7 @@ Ratings
 - Average price by property type
 - City-level rating analysis
 
-
-Reviews
+#### Reviews
 
 - Review frequency analysis
 - Customer review distribution
@@ -74,8 +64,7 @@ Reviews
 - Review share by major cities
 - Host verification analysis
 
-
-Key Dashboard Metrics:
+### Key Dashboard Metrics
 
 - Total Listings: 279,547
 - Total Cities: 10
@@ -83,39 +72,26 @@ Key Dashboard Metrics:
 - Total Property Types: 143
 - Total Reviews: 187,833
 
+### Key Insights
 
-Key Insights:
-
-- Paris, New York, and Sydney account for a large share of the
-  total listings and reviews in the analyzed dataset.
-- Paris has the highest number of listings and reviews among the
-  analyzed cities.
-- Hotel rooms have the highest average price among the property
-  types shown in the dashboard.
+- Paris, New York, and Sydney account for a large share of the total listings and reviews in the analyzed dataset.
+- Paris has the highest number of listings and reviews among the analyzed cities.
+- Hotel rooms have the highest average price among the property types shown in the dashboard.
 - The dashboard compares average ratings across major cities.
-- Review frequency analysis shows that most customers leave reviews
-  only a small number of times.
-- Host verification is analyzed through the distribution of
-  verified and unverified hosts.
-- New listing growth is analyzed across different stages of
-  Airbnb's market development, including the COVID-19 period.
+- Review frequency analysis shows that most customers leave reviews only a small number of times.
+- Host verification is analyzed through the distribution of verified and unverified hosts.
+- New listing growth is analyzed across different stages of Airbnb's market development, including the COVID-19 period.
 
+## 6. Screenshots / Demo
 
-6. Screenshots / Demo
+### Overview
 
-Overview
+![Overview](overview.png)
 
-![Overview](https://github.com/shreyash123-svg/Global-AirBnb-Performance-analysis/blob/main/overview.png)
+### Ratings
 
+![Ratings](ratings.png)
 
-Ratings
+### Reviews
 
-![Ratings](https://github.com/shreyash123-svg/Global-AirBnb-Performance-analysis/blob/main/ratings.png)
-
-
-Reviews
-![Reviews](https://github.com/shreyash123-svg/Global-AirBnb-Performance-analysis/blob/main/reviews.png)
-
-Reviews
-
-![Reviews](Screenshots/Reviews.png)
+![Reviews](reviews.png)
